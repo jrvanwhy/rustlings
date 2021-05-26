@@ -5,7 +5,16 @@
 
 // Write a macro that passes the quiz! No hints this time, you can do it!
 
-// I AM NOT DONE
+macro_rules! my_macro {
+    ($end:expr) => {
+        format!("Hello {}", $end)
+        //{
+        //	let mut phrase = "Hello ".to_string();
+        //	phrase.push_str($end);
+        //	phrase
+        //}
+    }
+}
 
 #[cfg(test)]
 mod tests {
